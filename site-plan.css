@@ -41,8 +41,8 @@ img {
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  font-family: "Trebuchet MS";
+  color: #3d3d3d;
 }
 h2 {
   text-align: center;
@@ -50,20 +50,20 @@ h2 {
 hr {
   height: 3px;
   margin: 35px 0;
-  background: var(--accent1-color);
+  background: #777777;
 }
 header {
   padding: 1em;
   text-align: center;
-  color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
+  color: #777777;
+  background-color: #3d3d3d;
 }
 header > h1, header > h2 {
-  color: var(--headline-color-on-color);
+  color: #777777;
 }
 
 p {
-  font-family: var(--paragraph-font);
+  font-family: "Tahoma", sans-serif;
   color: var(--paragraph-color);
   padding: 1em;
 }
@@ -82,25 +82,25 @@ p {
 }
 
 .primary {
-  background-color: var(--primary-color);
+  background-color: #000000;
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: #ffffff;
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #777777;
 }
 .accent2{
-  background-color: var(--accent2-color);
+  background-color: #3d3d3d;
 }
 
 p.colored {
-  background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
+  background-color: #3d3d3d;
+  color: #777777;
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: white;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -118,11 +118,11 @@ nav a {
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: #396E94;
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: white;
+  background-color: #396E94;
 }
 
 .sitemap {
