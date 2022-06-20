@@ -3,14 +3,16 @@
     height: 90px;
 }
 body{
-    color: #777777;
     background-color: #777777;
+    font-family: "Trebuchet MS", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 22px;
 }
 
 header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #777777;
+    font-family: "Tahoma", CenturyGothic, AppleGothic, sans-serif;
 }   
 nav {
     display: flex;
@@ -90,4 +92,9 @@ footer .social img {
 .hero-box{
 grid-column: 2/3;
 grid-row: 1/2;
+}
+h4{
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
 }
